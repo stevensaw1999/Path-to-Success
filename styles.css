@@ -86,13 +86,14 @@ body {
     color: var(--White);
 }
 
-main {
-    display: flex;
+#secondary{
+    margin-top: 100px;
     padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    border-radius: 25px;
+    background-color: var(--Pink);
+    border: 1px solid #ccc;
+    width:200px;
+    text-align: center;
+
 }
 
 
