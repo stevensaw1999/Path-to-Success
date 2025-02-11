@@ -10,7 +10,7 @@ header {
     background-color: var(--Lavender);
     border-bottom-right-radius: 55px;
     border-bottom-left-radius: 55px; 
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     justify-content: space-between;
 }
@@ -101,11 +101,16 @@ h4 {
 .nav-2 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     color:#E9BB57;
     font-weight: bold;
+}
+
+.nav-2 ul {
+    gap: 200px;
+    max-width: 100%;
 }
 
 /* Body */
@@ -113,25 +118,31 @@ h4 {
 #ser {
     margin-bottom: 10px;
 }
+
 main {
     display: flex;
     flex-wrap: wrap;
     margin-left: 20px;
 }
+
 body {
     flex-wrap: wrap;
     display: flex;
     font-family: "Inter";
     background-color: var(--Purple);
     color: var(--White);
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 
 .nav-3 {
-    margin-left: -20px;
+    margin-left: -100px;
+    max-width: 1000%;
 }
 
+.nav-3 ul {
+    gap: 80px;
+}
 /* Personal Development */
 
 #pd {
@@ -206,11 +217,80 @@ body {
 
 /* End SC Section */
 
+/* Interactive Learning */
 
+#il {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
 
+#il img {
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 25px;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+}
 
+#il h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-left: 10px;
+}
 
+#il p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+/* End Interactive Learning */
+/* Flexible Learning */
+
+#fl {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+#fl img {
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#fl h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#fl p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 
 
