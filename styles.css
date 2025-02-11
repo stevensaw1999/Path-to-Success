@@ -4,7 +4,7 @@
 /* CSS Reset */
 /* Header */
 header {
-    padding-top: 1px;
+    top: 0;
     background-color: var(--Lavender);
     border-bottom-right-radius: 55px;
     border-bottom-left-radius: 55px; 
@@ -12,13 +12,15 @@ header {
     width: 100%;
 }
 
-.secondary {
+#secondary {
+    display: flex;
     background-color: var(--Pink);
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-top: 5px;
-    border-radius: 10px;
-    position: relative;
+    border-radius: 60px;
+    
 }
 /* Nav */
 .header-nav {
@@ -32,6 +34,10 @@ header {
     border-bottom-left-radius: 25px;
     float: right;
     
+}
+
+.ps {
+    padding-top: 1px;
 }
 
 ul {
