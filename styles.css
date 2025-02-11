@@ -31,7 +31,7 @@ header #secondary {
 }
 
 /* Nav */
-.header-nav {
+header .header-nav {
     display: flex;
     flex-wrap: wrap;
     top: 0;
@@ -44,7 +44,8 @@ header #secondary {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     margin-left: auto;
-    
+    margin-right: 1px;
+    padding-right: 10px;
 }
 
 /* Path to Success Title */
@@ -97,11 +98,25 @@ h4 {
     font-size: 1.15em;
 }
 
+.nav-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color:#E9BB57;
+    font-weight: bold;
+}
+
 /* Body */
+
+#ser {
+    margin-bottom: 10px;
+}
 main {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 body {
     flex-wrap: wrap;
@@ -113,19 +128,11 @@ body {
     margin: auto;
 }
 
-/* Personal Development */
-main #ser {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 70px;
-    padding-top: 10px;
-}   
-
-.one {
-    display: flex;
-    flex-wrap:wrap;
-    color:#E9BB57;
+.nav-3 {
+    margin-left: -20px;
 }
+
+/* Personal Development */
 
 #pd {
     display: flex;
@@ -163,9 +170,41 @@ main #ser {
 
 /* End Personal Development Section */
 
+/* Supportive Community Section */
+#sc {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+    text-align: left;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
 
+#sc img {
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 25px;
+    width: 80px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+#sc h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-left: 10px;
+} 
+#sc p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}  
 
-
+/* End SC Section */
 
 
 
