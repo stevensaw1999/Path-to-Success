@@ -109,7 +109,8 @@ h4 {
 }
 
 .nav-2 ul {
-    gap: 200px;
+    margin-top:
+    gap: 25px;
     max-width: 100%;
 }
 
@@ -137,11 +138,11 @@ body {
 
 .nav-3 {
     margin-left: -100px;
-    max-width: 1000%;
+    max-width: 100%;
 }
 
 .nav-3 ul {
-    gap: 80px;
+    gap: 25px;
 }
 /* Personal Development */
 
