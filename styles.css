@@ -109,15 +109,17 @@ h4 {
 }
 
 .nav-2 ul {
-    margin-top:
-    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 250px;
     max-width: 100%;
 }
 
 /* Body */
 
 #ser {
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 
 main {
