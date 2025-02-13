@@ -505,6 +505,7 @@ body {
     margin-top: 10px;
     margin-left: 10px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .table-container table tr:first-child {
@@ -521,6 +522,30 @@ table {
 }
 
 /* Bottom Page */
+
+#bottom h2 {
+    font-family: "Kavoon";
+    font-size: 2em;
+    padding-top: 10px;
+}
+
+#bottom {
+    flex-direction: column;
+    display: flex;
+    background-color:#D9526F;
+    padding: 10px;
+}
+
+.button {
+    background-color:#ffffff;
+    color:#1E1E1E;
+    padding-left: 60px;
+    padding-right: 60px;
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
 /* Root Variables */
 :root {
     font-family:'Courier New', Courier, monospace;
