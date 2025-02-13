@@ -104,6 +104,7 @@ h4 {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 1px;
+    margin-left: -250px;
     color:#E9BB57;
     font-weight: bold;
 }
@@ -112,8 +113,10 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
+    margin-left: 20px;
     gap: 250px;
     max-width: 100%;
+    
 }
 
 /* Body */
@@ -139,12 +142,15 @@ body {
 }
 
 .nav-3 {
+    display: flex;
+    flex-wrap: wrap;
     margin-left: -100px;
     max-width: 100%;
+    margin-top: -80px;
 }
 
 .nav-3 ul {
-    gap: 25px;
+    gap: 150px;
 }
 /* Personal Development */
 
@@ -154,7 +160,7 @@ body {
     background-color: white;
     color:#1E1E1E;
     border-radius: 25px;
-    height: 300px;
+    height: 350px;
     width: 300px;
     text-align: left;
     margin-left: 10px;
@@ -295,15 +301,218 @@ body {
     margin-right: 10px;
 }
 
+/* Nav 4 */
+.nav-4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -100px;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.nav-4 ul {
+    gap: 250px;
+}
+/* Career Coaching */
+
+#cc {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    text-align: left;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+#cc img {
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#cc h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#cc p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Focused Sessions */
+#fs {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    text-align: left;
+    margin-left: -90px;
+    flex-wrap: wrap;
+}
+
+#fs img {
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#fs h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#fs p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Relationship Coaching */
+#rc {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    color:#1E1E1E;
+    border-radius: 25px;
+    height: 350px;
+    width: 300px;
+    text-align: left;
+    margin-top: 450px;
+    margin-left: -760px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    
+}
+
+#rc img {
+    flex-wrap: wrap;
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+#rc h4 {
+    color:#484FB7;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#rc p {
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Why Choose Us */
+#wcu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 820px;
+    margin-left: -300px;
+    background-color:#D9526F;
+    padding-right: 10px;
+    width: 100%;
+}
+
+#wcu ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding-top: 60px;
+    margin-left: -210px;
+}
+
+#wcu ul li:first-child {
+    background-color: var(--Teal);
+    color:#1E1E1E;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#wcu ul li:nth-child(2) {
+    background-color: var(--Purple);
+    color:#1E1E1E;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#wcu ul li:nth-child(3) {
+    background-color: var(--Yellow);
+    color:#1E1E1E;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#wcu ul li:last-child {
+    background-color: var(--White);
+    color:#1E1E1E;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.wcu2 {
+    font-family: "Kavoon";
+    font-size: 1em;
+    padding-left: 10px;
+}
 
 
+#nav-5 {
+    color:#E9BB57;
+    font-weight: bold;
+}
 
+/* Prices */
 
+#prices h3 {
+    font-family: "Kavoon";
+}
 
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
-
-
-
+.table-container table tr:first-child {
+    background-color: var(--Yellow); /* Change this to your desired color */
+    color: var(--Dark-gray); /* Optional: Change text color */
+}
+table {
+    padding: 0px;
+}
 
 /* Root Variables */
 :root {
