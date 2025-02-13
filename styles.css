@@ -504,16 +504,23 @@ body {
     gap: 60px;
     margin-top: 10px;
     margin-left: 10px;
+    width: 100%;
 }
 
 .table-container table tr:first-child {
     background-color: var(--Yellow); /* Change this to your desired color */
     color: var(--Dark-gray); /* Optional: Change text color */
 }
+
+.table-container table tr:not(first-child) {
+    background-color:#ffffff;
+    color: black;
+}
 table {
     padding: 0px;
 }
 
+/* Bottom Page */
 /* Root Variables */
 :root {
     font-family:'Courier New', Courier, monospace;
