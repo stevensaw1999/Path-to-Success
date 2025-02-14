@@ -551,7 +551,7 @@ table {
 :root {
     font-family:'Courier New', Courier, monospace;
 
-    --Teal :#4CA7C0;
+    --Teal:#4CA7C0;
     --Purple: #484FB7;
     --Lavender: #6B8FE7;
     --Yellow: #E9BB57; 
@@ -562,7 +562,7 @@ table {
 }
 
 /* Media Queries */
-@media  and (min-width:550px) {
+@media screen and (min-width:550px) {
     nav ul {
         display:grid;
         grid-template-columns: repeat(2, 1fr);
