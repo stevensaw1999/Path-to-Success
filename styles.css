@@ -544,6 +544,7 @@ table {
     float: right;
     margin-bottom: 10px;
     border-radius: 10px;
+    border-color: #1E1E1E;
 }
 
 /* Root Variables */
@@ -558,4 +559,12 @@ table {
     --Dark-gray:#1E1E1E; 
     --White:#ffffff; 
       
+}
+
+/* Media Queries */
+@media  and (min-width:550px) {
+    nav ul {
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
