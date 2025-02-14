@@ -51,7 +51,7 @@ header .header-nav {
 /* Path to Success Title */
 header .ps {
     margin-left: 10px;
-    text-align: center;
+    padding-right: 500px;
 
 }
 
@@ -60,6 +60,7 @@ ul {
     list-style: none;
     display: flex; /* Makes Nav text go horizontal */
     gap: 80px;
+    flex-wrap: wrap;
 }
 
 nav a {
@@ -448,6 +449,15 @@ body {
     margin-left: -210px;
 }
 
+#wcu ul li {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 #wcu ul li:first-child {
     background-color: var(--Teal);
     color:#1E1E1E;
@@ -490,6 +500,8 @@ body {
 #nav-5 {
     color:#E9BB57;
     font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* Prices */
@@ -518,6 +530,8 @@ body {
     color: black;
 }
 table {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0px;
 }
 
@@ -537,6 +551,8 @@ table {
 }
 
 .button {
+    flex-wrap: wrap;
+    display: flex;
     background-color:#ffffff;
     color:#1E1E1E;
     padding-left: 60px;
@@ -562,7 +578,7 @@ table {
 }
 
 /* Media Queries */
-@media screen and (min-width:550px) {
+@media screen and (min-width:3050px) {
     nav ul {
         display:grid;
         grid-template-columns: repeat(2, 1fr);
