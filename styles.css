@@ -44,8 +44,11 @@ body {
 
 /* Navigation Bar */
 nav {
-    position:sticky;
+    position: sticky;
+    top: 10px; /* Adjust this value as needed */
+    z-index: 1000; /* Ensure it stays on top of other elements */
 }
+
 nav ul {
     list-style: none;
     color:#1E1E1E;
