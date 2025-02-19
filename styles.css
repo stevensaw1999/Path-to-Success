@@ -180,7 +180,11 @@ header p {
 }
 /* table */
 table {
+    display: flex;
+    flex-wrap:wrap;
+    flex: 1 0 10px;
     border: 1px solid;
+    margin-bottom: 50px;
 }
 
 th {
