@@ -1,90 +1,18 @@
-/*IMPORTED FONTS*/
-@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap);
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
-/* CSS Reset */
-/* Header */
-header {
-    flex-wrap: wrap;
-    display: flex;
-    top: 0px;
-    background-color: var(--Lavender);
-    border-bottom-right-radius: 55px;
-    border-bottom-left-radius: 55px; 
-    max-width: 100%;
-    margin: auto;
-    justify-content: space-between;
-}
-
-header #secondary {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -10px;
-    justify-content: center;
-    background-color: var(--Pink);
-    text-align: center;
-    margin-bottom: 1px;
-    padding-top: 5px;
-    padding-bottom: 2px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    width: 100%;
-}
-
-/* Nav */
-header .header-nav {
-    display: flex;
-    flex-wrap: wrap;
-    top: 0;
-    background-color: var(--Yellow);
-    color:#1E1E1E;
-    font-family: "inter";
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    margin-left: auto;
-    margin-right: 1px;
-    padding-right: 10px;
-}
-
-/* Path to Success Title */
-header .ps {
-    margin-left: 10px;
-    padding-right: 500px;
-
-}
-
-    /* Nav List */
-ul {
-    list-style: none;
-    display: flex; /* Makes Nav text go horizontal */
-    gap: 80px;
-    flex-wrap: wrap;
-}
-
-nav a {
-    text-decoration: none;
-    color:#1E1E1E; 
-}
-
-nav a:hover {
-    color: var(--Purple);
-}
-
-    /* H */
+/*-------------------- CSS REST ---------------------------------------------------*/
 h1, h2 {
-    font-family: "Kavoon";
+    font-family: "kavoon";
 }
 
 text {
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
 }
 
 h1 {
     font-size: 3em;
     text-align: center;
-    padding-top: 80px;
 }
 
 h2 {
@@ -97,489 +25,209 @@ h3 {
 
 h4 {
     font-size: 1.15em;
+    color:#484FB7;
 }
 
-.nav-2 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 1px;
-    margin-left: -250px;
-    color:#E9BB57;
-    font-weight: bold;
-}
-
-.nav-2 ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-left: 20px;
-    gap: 250px;
-    max-width: 100%;
-    
-}
-
-/* Body */
-
-#ser {
-    margin-bottom: 100px;
-}
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 20px;
+nav, h2 {
+    font-size: 1.5em;
 }
 
 body {
-    flex-wrap: wrap;
-    display: flex;
-    font-family: "Inter";
-    background-color: var(--Purple);
-    color: var(--White);
-    width: 90%;
-    margin: auto;
+    background-color:#484FB7;
+    color: white;
 }
 
-.nav-3 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -100px;
-    max-width: 100%;
-    margin-top: -80px;
+#body { 
+    margin-left: 300px;
 }
-
-.nav-3 ul {
-    gap: 150px;
-}
-/* Personal Development */
-
-#pd {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+/* Navigation Bar */
+nav ul {
+    list-style: none;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    text-align: left;
-    margin-left: 10px;
-    flex-wrap: wrap;
+    font-weight: bold;
+    background-color:#E9BB57;
+    position: relative;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px; /* Gives the navigation bar a rounded edge */
+    float: right;
+    display: flex; /* Makes nav go horizontal */
+    padding: 10px;
+    gap: 25px;
 }
 
-#pd img {
-    flex-wrap: wrap;
-    display: flex;
-    border-radius: 25px;
-    width: 80px;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 40px;
+header {
+    background-color:#6B8FE7;
+    justify-content: center;
+    text-align: center;
+    width: 75%;
+    margin-left: 300px;
+    color: white;
+    padding-top: 10px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 80px;
 }
+
+header p {
+    background-color:#D9526F;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 10px;
+    
+
+}
+/* End Navigation Segment */
+
+/* Middle Section */
+#column-1 h3 {
+    color:#E9BB57;
+}
+/* Box Layout */
+#pd {
+    position: absolute;
+    padding: 10px;
+    background-color:#ffffff;
+    color:#1E1E1E;
+    border-radius: 20px;
+    width: 20%;
+    max-width: 80%;
+    max-height: 50%;
+}
+
 #pd h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-left: 10px;
+    margin-top: 10px;
 }
-
 #pd p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: -20px;
 }
 
-/* End Personal Development Section */
+#pd img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    object-fit: none;
+}
 
-/* Supportive Community Section */
 #sc {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 300px;
-    width: 300px;
-    text-align: left;
-    margin-left: 10px;
-    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 20px; 
 }
-
-#sc img {
-    flex-wrap: wrap;
-    display: flex;
-    border-radius: 25px;
-    width: 80px;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-#sc h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-left: 10px;
-} 
-#sc p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}  
-
-/* End SC Section */
-
-/* Interactive Learning */
 
 #il {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 300px;
-    width: 300px;
-    text-align: left;
-    margin-left: 10px;
-    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 20px; 
 }
-
-#il img {
-    flex-wrap: wrap;
-    display: flex;
-    border-radius: 25px;
-    width: 80px;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-#il h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-left: 10px;
-}
-
-#il p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* End Interactive Learning */
-/* Flexible Learning */
 
 #fl {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 300px;
-    width: 300px;
-    text-align: left;
-    margin-left: 10px;
-    flex-wrap: wrap;
+    width: 60%;
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 20px; 
 }
 
-#fl img {
-    flex-wrap: wrap;
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-#fl h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-#fl p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* Nav 4 */
-.nav-4 {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -100px;
-    max-width: 100%;
-    margin-top: 20px;
-    margin-bottom: 200px;
-}
-
-.nav-4 ul {
-    gap: 250px;
-}
-/* Career Coaching */
-
+/* Box Layout 2nd section */
 #cc {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    text-align: left;
-    margin-left: 10px;
-    flex-wrap: wrap;
+    width: 60%;
+    max-width: 20%;
+    padding: 10px;
+    border-radius: 20px; 
+    margin-top: 50px;
+
 }
 
-#cc img {
-    flex-wrap: wrap;
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-#cc h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-#cc p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* Focused Sessions */
 #fs {
     display: flex;
-    justify-content: space-between;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    text-align: left;
-    margin-left: -90px;
-    flex-wrap: wrap;
+    width: 60%;
+    max-width: 20%;
+    padding: 10px;
+    border-radius: 20px; 
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
-#fs img {
-    flex-wrap: wrap;
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-#fs h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-#fs p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* Relationship Coaching */
 #rc {
     display: flex;
-    flex-wrap: wrap;
-    background-color: white;
+    flex-wrap:wrap;
+    background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 25px;
-    height: 350px;
-    width: 300px;
-    text-align: left;
-    margin-top: 450px;
-    margin-left: -760px;
-    margin-bottom: 100px;
-    flex-wrap: wrap;
-    
-}
-
-#rc img {
-    flex-wrap: wrap;
-    display: flex;
-    width: auto;
-    height: auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    margin-left: 40px;
-}
-
-#rc h4 {
-    color:#484FB7;
-    text-align: left;
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-#rc p {
-    margin-top: -10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-/* Why Choose Us */
-#wcu {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 820px;
-    margin-left: -300px;
-    background-color:#D9526F;
-    padding-right: 10px;
-    width: 100%;
-}
-
-#wcu ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 150px;
-    padding-top: 60px;
-    margin-left: -210px;
-}
-
-#wcu ul li {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 20px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 20px; 
+}
+/* table */
+table {
+    border: 1px solid;
 }
 
-#wcu ul li:first-child {
-    background-color: var(--Teal);
-    color:#1E1E1E;
-    font-weight: bold;
-    padding: 40px;
-    border-radius: 20px;
+th {
+    background-color:#E9BB57;
+    color: black;
+    padding: 10px;
+    border:none;
 }
 
-#wcu ul li:nth-child(2) {
-    background-color: var(--Purple);
-    color:#1E1E1E;
-    font-weight: bold;
-    padding: 40px;
-    border-radius: 20px;
-}
-
-#wcu ul li:nth-child(3) {
-    background-color: var(--Yellow);
-    color:#1E1E1E;
-    font-weight: bold;
-    padding: 30px;
-    border-radius: 20px;
-}
-
-#wcu ul li:last-child {
-    background-color: var(--White);
-    color:#1E1E1E;
-    font-weight: bold;
-    padding: 40px;
-    border-radius: 20px;
-}
-
-.wcu2 {
-    font-family: "Kavoon";
-    font-size: 1em;
-    padding-left: 10px;
-}
-
-.nav-5 {
-    color:#E9BB57;
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/* Prices */
-
-#prices h3 {
-    font-family: "Kavoon";
-}
-
-.table-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 60px;
-    margin-top: 10px;
-    margin-left: 10px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.table-container table tr:first-child {
-    background-color: var(--Yellow); /* Change this to your desired color */
-    color: var(--Dark-gray); /* Optional: Change text color */
-}
-
-.table-container table tr:not(first-child) {
+td {
+    border: 2px solid #E9BB57;
+    height: 25px;
+    padding: 10px;
     background-color:#ffffff;
     color: black;
 }
-table {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0px;
-}
 
-/* Bottom Page */
 
-#bottom h2 {
-    font-family: "Kavoon";
-    font-size: 2em;
-    padding-top: 10px;
-}
+/* End Table */
 
-#bottom {
-    flex-direction: column;
-    display: flex;
-    background-color:#D9526F;
-    padding: 10px;
-}
-
-.button {
-    flex-wrap: wrap;
-    display: flex;
-    background-color:#ffffff;
-    color:#1E1E1E;
-    padding-left: 60px;
-    padding-right: 60px;
-    float: right;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    border-color: #1E1E1E;
-}
-
-/* Root Variables */
+/* -------------------- ROOT VARIABLES --------------------------------------- */
 :root {
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Inter", serif;
+    color:#4CA7C0;
+    color:#484FB7;
+    color:#6B8FE7;
+    color:#E9BB57; 
+    color:#D9526F;
+    color:#1E1E1E; 
+    color:#ffffff; 
+    
+}
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+@media screen and (min-width: 450px) {
 
-    --Teal:#4CA7C0;
-    --Purple: #484FB7;
-    --Lavender: #6B8FE7;
-    --Yellow: #E9BB57; 
-    --Pink:#D9526F;
-    --Dark-gray:#1E1E1E; 
-    --White:#ffffff; 
-      
+}
+Small- min-width: 450px
+
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+Medium- min-width: 620px
+@media screen and (min-width: 620px) {
+
+}
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+@media screen and (min-width: 950px) {
+
 }
 
-/* Media Queries */
-@media screen and (min-width:3050px) {
-    nav ul {
-        display:grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
+/*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
+XL- min-width: 1280px
