@@ -48,13 +48,12 @@ nav ul {
     color:#1E1E1E;
     font-weight: bold;
     background-color:#E9BB57;
-    position: relative;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px; /* Gives the navigation bar a rounded edge */
     float: right;
     display: flex; /* Makes nav go horizontal */
     padding: 10px;
-    gap: 25px;
+    gap: 20px;
 }
 
 header {
@@ -65,14 +64,17 @@ header {
     padding-top: 10px;
     border-bottom-right-radius: 80px;
     border-bottom-left-radius: 80px;
+    z-index: 2;
 }
+
+
 
 header p {
     background-color:#D9526F;
     text-align: center;
     padding-top: 15px;
     border-radius: 10px;
-    
+    z-index: 1;
 
 }
 /* End Navigation Segment */
@@ -170,17 +172,33 @@ td {
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 450px) {
-
+    #column-1 {
+        max-width: 100%;
+    }
 }
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 620px) {
-
+    #column-1 {
+       max-width: 80%;
+       min-width: 20%;
+    }
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 950px) {
-
+    #column-1 {
+        max-width: 50%;
+        min-width: 40%;
+    }
 }
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
-XL- min-width: 1280px
-@media screen and (min-width: 1280px);
+
+@media screen and (min-width: 1280px){
+    header {
+        max-width: 95%
+    }
+
+    #column-1 {
+        max-width: 20%;
+    }
+}
