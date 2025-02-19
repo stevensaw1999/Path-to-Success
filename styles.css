@@ -43,6 +43,9 @@ body {
 }
 
 /* Navigation Bar */
+nav {
+    position:sticky;
+}
 nav ul {
     list-style: none;
     color:#1E1E1E;
@@ -67,7 +70,6 @@ header {
     border-bottom-left-radius: 80px;
     z-index: 2;
 }
-
 
 
 header p {
@@ -178,7 +180,6 @@ td {
     }
     nav ul {
         max-width: 20%;
-        max-height: 
     }
 
     .menu {
@@ -189,7 +190,7 @@ td {
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 620px) {
     #column-1 {
-       max-width: 60%;
+       max-width: 40%;
        min-width: 20%;
     }
 
