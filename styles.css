@@ -496,8 +496,7 @@ body {
     padding-left: 10px;
 }
 
-
-#nav-5 {
+.nav-5 {
     color:#E9BB57;
     font-weight: bold;
     display: flex;
