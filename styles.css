@@ -51,7 +51,8 @@ nav ul {
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px; /* Gives the navigation bar a rounded edge */
     float: right;
-    display: flex; /* Makes nav go horizontal */
+    display: flex;
+    flex-wrap: wrap; /* Makes nav go horizontal */
     padding: 10px;
     gap: 20px;
 }
@@ -175,19 +176,43 @@ td {
     #column-1 {
         max-width: 100%;
     }
+    nav ul {
+        max-width: 20%;
+        max-height: 
+    }
+
+    .menu {
+        display: block;
+    }
 }
+
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 620px) {
     #column-1 {
-       max-width: 80%;
+       max-width: 60%;
        min-width: 20%;
+    }
+
+    nav ul {
+        max-width: 80%;
+        min-width: 30%;
+    }
+}
+
+@media screen and (max-width: 949px) {
+    .nav-links {
+        display: none;
     }
 }
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 @media screen and (min-width: 950px) {
     #column-1 {
-        max-width: 50%;
-        min-width: 40%;
+        max-width: 30%;
+        min-width: 20%;
+    }
+
+    .menu {
+        display: none;
     }
 }
 
@@ -195,7 +220,7 @@ td {
 
 @media screen and (min-width: 1280px){
     header {
-        max-width: 95%
+        max-width: 95%;
     }
 
     #column-1 {
