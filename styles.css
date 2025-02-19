@@ -37,9 +37,11 @@ body {
     color: white;
 }
 
-#body { 
-    margin-left: 300px;
+#body {
+    max-width: 1800px;
+    width: 95%;
 }
+
 /* Navigation Bar */
 nav ul {
     list-style: none;
@@ -59,8 +61,6 @@ header {
     background-color:#6B8FE7;
     justify-content: center;
     text-align: center;
-    width: 75%;
-    margin-left: 300px;
     color: white;
     padding-top: 10px;
     border-bottom-right-radius: 80px;
@@ -83,14 +83,8 @@ header p {
 }
 /* Box Layout */
 #pd {
-    position: absolute;
-    padding: 10px;
     background-color:#ffffff;
     color:#1E1E1E;
-    border-radius: 20px;
-    width: 20%;
-    max-width: 80%;
-    max-height: 50%;
 }
 
 #pd h4 {
@@ -108,81 +102,38 @@ header p {
 }
 
 #sc {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 60%;
-    max-width: 60%;
-    padding: 10px;
-    border-radius: 20px; 
 }
 
 #il {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 60%;
-    max-width: 60%;
-    padding: 10px;
-    border-radius: 20px; 
 }
 
 #fl {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 60%;
-    max-width: 60%;
-    padding: 10px;
-    border-radius: 20px; 
 }
 
 /* Box Layout 2nd section */
 #cc {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 60%;
-    max-width: 20%;
-    padding: 10px;
-    border-radius: 20px; 
-    margin-top: 50px;
-
 }
 
 #fs {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 60%;
-    max-width: 20%;
-    padding: 10px;
-    border-radius: 20px; 
-    margin-top: 50px;
-    margin-left: 20px;
 }
 
 #rc {
-    display: flex;
-    flex-wrap:wrap;
     background-color:#ffffff;
     color:#1E1E1E;
-    width: 20%;
-    margin-top: 50px;
-    margin-left: 20px;
-    padding: 10px;
-    border-radius: 20px; 
 }
 /* table */
 table {
-    display: flex;
-    flex-wrap:wrap;
-    flex: 1 0 10px;
+
     border: 1px solid;
     margin-bottom: 50px;
 }
@@ -221,10 +172,7 @@ td {
 @media screen and (min-width: 450px) {
 
 }
-Small- min-width: 450px
-
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
-Medium- min-width: 620px
 @media screen and (min-width: 620px) {
 
 }
@@ -235,3 +183,4 @@ Medium- min-width: 620px
 
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 XL- min-width: 1280px
+@media screen and (min-width: 1280px);
