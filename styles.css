@@ -42,6 +42,7 @@ body {
     width: 95%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
@@ -57,7 +58,7 @@ header {
     border-bottom-left-radius: 80px;
     z-index: 2;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
 }
 
 
@@ -136,10 +137,14 @@ h3 {
 
 /* Group Coaching */
 
+#column-2 {
+
+}
+
 #sc {
     background-color:#ffffff;
     color:#1E1E1E;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
     border-radius: 10px;
 }
@@ -240,7 +245,7 @@ h3 {
 /* table */
 table {
     border: 1px solid;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     justify-content: center;
     margin-left: 100px;
 }
@@ -262,6 +267,35 @@ td {
 
 
 /* End Table */
+/* Bottom Segment */
+#bottom {
+    background-color:#D9526F;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#bottom a {
+    color:#1E1E1E;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 50px;
+    background-color:#ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 1,1.5);
+
+}
+/* End Bottom Segment */
+/* Footer Segment */
+footer {
+    
+}
+
+
 
 /* -------------------- ROOT VARIABLES --------------------------------------- */
 :root {
@@ -292,6 +326,10 @@ td {
     h1 {
         max-width: 100%;
         width: 100%;
+    }
+
+    #nav-3 {
+        width:fit-content;
     }
 
     #nav-3 ul li {
@@ -329,6 +367,11 @@ td {
         justify-content: center;
         text-align: center;
     }
+
+    #main-body {
+        display:block;
+    }
+
 
 
 }
@@ -391,20 +434,6 @@ td {
         gap: 15px;
     }
 
-    #column-1 {
-        max-width: 30%;
-        min-width: 20%;
-    }
-
-    #column-2 {
-        max-width: 30%;
-        min-width: 20%;
-    }
-
-    #sc, #fs {
-        max-width: 30%;
-        min-width: 20%;
-    }
 
     .nav-links {
         display: none;
