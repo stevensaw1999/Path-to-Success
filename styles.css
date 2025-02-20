@@ -54,7 +54,7 @@ header {
     border-bottom-left-radius: 80px;
     z-index: 2;
     position: relative;
-    margin-bottom: 110px;
+    margin-bottom: 150px;
 }
 
 
@@ -93,14 +93,15 @@ nav {
 /* Middle Section */
 
 
-#column-1 h3 {
+h3 {
     color:#E9BB57;
 }
+
 /* Box Layout */
 #row-1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 1px;
     
 }
 
@@ -143,37 +144,104 @@ nav {
     padding: 10px;
     margin: 10px;
 }
+
 /* Group Coaching */
+
 #sc {
     background-color:#ffffff;
     color:#1E1E1E;
-}
-
-#il {
-    background-color:#ffffff;
-    color:#1E1E1E;
-}
-
-#fl {
-    background-color:#ffffff;
-    color:#1E1E1E;
-}
-
-/* Box Layout 2nd section */
-#cc {
-    background-color:#ffffff;
-    color:#1E1E1E;
-    flex: 1 1 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 #fs {
     background-color:#ffffff;
     color:#1E1E1E;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Workshop & Seminars */
+
+#il {
+    background-color:#ffffff;
+    color:#1E1E1E;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#fl {
+    background-color:#ffffff;
+    color:#1E1E1E;  
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* why Choose Us */
+
+#nav-3 {
+    margin-left: 10px;
+    background-color:#D9526F;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+
+}
+
+#nav-3 ul{
+    list-style: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+#nav-3 ul li {
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#nav-3 ul li:nth-child(1) {
+    background-color:#4CA7C0;
+    padding: 40px;
+    color:#1E1E1E;
+    width: 30%;
+    border-radius: 10px;
+
+}
+
+#nav-3 ul li:nth-child(2) {
+    background-color:#484FB7;
+    padding: 40px;
+    color:#1E1E1E;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#nav-3 ul li:nth-child(3) {
+    background-color:#E9BB57;
+    padding: 40px;
+    color:#1E1E1E;
+    width: 30%;
+    border-radius: 10px;
+}
+
+#nav-3 ul li:last-child {
+    background-color:#ffffff;
+    padding: 40px;
+    color:#1E1E1E;
+    width: 30%;
+    border-radius: 10px;
 }
 
 /* table */
 table {
-
     border: 1px solid;
     margin-bottom: 50px;
 }
@@ -223,6 +291,11 @@ td {
     .nav-links {
         display: none;
     }
+
+    h1 {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -230,13 +303,19 @@ td {
         display: none;
     }
 
-    #pd {
-        
+    h1 {
+        max-width: 100%;
+        width: 100%;
     }
+
 }
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 @media screen and (min-width: 620px) {
+    #column-2 {
+        max-width: 40%;
+        min-width: 20%;
+     }
     #column-1 {
        max-width: 40%;
        min-width: 20%;
@@ -249,6 +328,9 @@ td {
     .nav-links {
         display: none;
     }
+    #column-2 {
+        min-width: 20%;
+     }
 }
 
 
@@ -264,6 +346,10 @@ td {
     #column-1 {
         max-width: 30%;
         min-width: 20%;
+    }
+
+    #sc, #fs {
+        max-width: 20%;
     }
 
     .nav-links {
@@ -297,6 +383,10 @@ td {
         max-width: 20%;
     }
 
+    #column-2 {
+        max-width: 20%;
+    }
+
     .nav-links {
         display: flex;
         gap: 20px;
@@ -315,5 +405,9 @@ td {
         display: flex;
         flex-wrap: wrap;
         gap: 15px;
+    }
+
+    #sc, #fs {
+        max-width: 20%;
     }
 }
