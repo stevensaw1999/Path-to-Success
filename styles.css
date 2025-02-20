@@ -71,7 +71,7 @@ header p {
 }
 /* End Header Segment */
 /* Navigation Segment */
-nav ul {
+nav ul, nav ul li:first-child{
     list-style: none;
     color:#1E1E1E;
     font-weight: bold;
@@ -102,12 +102,6 @@ h3 {
 }
 
 /* Box Layout */
-#row-1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1px;
-    
-}
 
 #pd {
     background-color:#ffffff;
@@ -321,15 +315,15 @@ footer a {
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 450px) {
 
-    nav ul {
+    nav ul, nav ul li:first-child {
         max-width: 20%;
     }
 
-    .menu {
+    #nav-1 .menu {
         display: flex;
     }
 
-    .nav-links {
+    #nav-1 .prices, #nav-1 .os, #nav-1 .wcu, #nav-1 .tfs {
         display: none;
     }
 
@@ -404,7 +398,12 @@ footer a {
 }
 
 @media screen and (max-width: 450px) {
-    .nav-links {
+
+    #nav-1 .menu {
+        display: flex;
+    }
+
+    nav ul {
         display: none;
     }
 
@@ -442,11 +441,11 @@ footer a {
        min-width: 20%;
     }
 
-    nav ul {
-        max-width: 80%;
-        min-width: 30%;
+    #nav-1 .menu {
+        display: flex;
     }
-    .nav-links {
+
+    #nav-1 .prices, #nav-1 .os, #nav-1 .wcu, #nav-1 .tfs {
         display: none;
     }
 
@@ -496,8 +495,11 @@ footer a {
         gap: 15px;
     }
 
+    nav ul li:first-child {
+        display: flex;
+    } 
 
-    .nav-links {
+    nav ul {
         display: none;
     }
 
@@ -523,16 +525,6 @@ footer a {
 
 }
 
-@media screen and (max-width: 950px) {
-    .nav-links {
-        display: none;
-    }
-
-    .menu {
-        display: flex;
-    }
-}
-
 /*-------------------- MEDIA QUERY (xl) ---------------------------------------*/
 
 @media screen and (min-width: 1280px){
@@ -548,13 +540,11 @@ footer a {
         max-width: 20%;
     }
 
-    .nav-links {
+    #nav-1 .prices, #nav-1 .os, #nav-1 .wcu, #nav-1 .tfs {
         display: flex;
-        gap: 20px;
-
     }
 
-    .menu {
+    #nav-1 .menu {
         display: none;
     }
 
