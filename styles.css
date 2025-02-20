@@ -37,10 +37,13 @@ body {
     color: white;
 }
 
-#body {
+#main-body {
     max-width: 1800px;
     width: 95%;
+    display: flex;
+    flex-wrap: wrap;
 }
+
 
 /* Header */
 
@@ -365,6 +368,16 @@ td {
         margin-top: 100px;
     }
 
+    #main-body {
+        display: flex;
+        flex-wrap: nowrap; /* Ensure items do not wrap */
+        gap: 20px; /* Adjust gap between columns */
+    }
+
+    #column-1, #column-2, #column-3 {
+        flex: 1; /* Allow columns to grow and fill the container */
+        width: auto; /* Adjust width to fit content */
+    }
 
 }
 
