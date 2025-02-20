@@ -177,6 +177,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
+    font-weight: bold;
 
 }
 
@@ -273,9 +274,7 @@ td {
 }
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 @media screen and (min-width: 450px) {
-    #column-1 {
-        max-width: 100%;
-    }
+
     nav ul {
         max-width: 20%;
     }
@@ -298,7 +297,11 @@ td {
     }
 
     #nav-3 ul {
-        max-width: 80%;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -324,10 +327,6 @@ td {
         text-align: center;
     }
 
-    #nav-3 ul li {
-       width: 100%;
-       flex: none;
-}
 
 }
 
@@ -355,15 +354,17 @@ td {
         min-width: 20%;
     }
 
+    #nav-3 {
+        padding: 20px;
+    }
+
     #nav-3 ul {
         display: flex;
         flex-wrap: nowrap;
+        max-width: 40%;
+        margin-top: 100px;
     }
 
-    #nav-3 ul li {
-        width: auto;
-        flex: 1;
-    }
 
 }
 
@@ -400,6 +401,10 @@ td {
         flex: 1 1 100px;
         max-width: 100%;
         min-width: 50%;
+    }
+
+    #nav-3 ul {
+        max-width: 30%;
     }
 
 }
@@ -443,6 +448,10 @@ td {
         flex: 1 1 100px;
         max-width: 100%;
         min-width: 50%;
+    }
+
+    #nav-3 ul {
+        max-width: 30%;
     }
 
 }
