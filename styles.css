@@ -338,7 +338,7 @@ footer a {
         margin-left: 30px;
     }
 
-    #pd, #cc, #rc {
+    #pd, #cc, #rc, #sc, #fs, #il, #fl {
         max-width: 100%;
         margin-right: 30px;
         margin-left: 30px;
@@ -373,12 +373,11 @@ footer a {
     }
 
     #nav-3 ul {
-        max-width: 100%;
+        max-width: 40%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        margin-left: -30px;
     }
 
     #nav-3 ul li:nth-child(2) {
@@ -410,6 +409,17 @@ footer a {
     h1 {
         max-width: 100%;
         width: 100%;
+    }
+
+    #nav-3 ul {
+        width: 60%;
+    }
+
+
+    #nav-3 {
+        width: 100%;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
 }
